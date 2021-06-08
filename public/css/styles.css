@@ -1,0 +1,41 @@
+#tbhead #th {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#title_header {
+  background-color: #eeeded;
+  min-height: 50px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#title_header ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#title_header li {
+  float: left;
+  display: inline;
+  padding: 5px 5px;
+  text-transform: capitalize;
+}
+
+#title_header a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+#title_header a:hover {
+  color: #0e0d0d;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+}
